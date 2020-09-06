@@ -1,0 +1,40 @@
+/* Search & Filter Styles */
+body
+{
+	display:block;
+}
+.Bestwebsite p
+{
+	margin-top: 1em;
+	display:inline-block;
+}
+.Bestwebsite ul
+{
+	display:inline-block;
+}
+.Bestwebsite li
+{
+	list-style: none;
+	display:inline-block;
+	padding-right:10px;
+}
+
+/* If in a widget area make a single column by adding display block  */
+.widget-area .Bestwebsite li, .widget-area .Bestwebsite p
+{
+	display:block;
+}
+.Bestwebsite label
+{
+	display:block;
+}
+.Bestwebsite h4
+{
+	margin:15px 0;
+	font-size:16px;
+}
+
+.Bestwebsite ul > li > ul:not(.children)
+{
+	margin-left:0;
+}
